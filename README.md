@@ -30,7 +30,17 @@ Recently, we had solar panels installed in our home. But they were fixed so, i t
 
 **Working Principle of LDR Sensor**
 
-LDR Works as a light detector. It is also known as a photoresistor. Actually, It is a light Sensitive device. In this project, we are using 4 LDRs to detect the Sunlight. And when they send Signal to the Arduino, It will guide two Servo Motors to better place the solar panel to maximize its efficiency.
+LDR Works as a light detector. It is also known as a photoresistor. Actually, It is a light Sensitive device.
+These devices depend on the light, when light falls on the LDR then the resistance decreases, and increases in the dark.When a LDR is kept in the dark place, its resistance is high and, when the LDR is kept in the light its resistance will decrease.
+
+
+
+![Variation-of-LDR-Resistance-with-Variation-in-Light-Intensity](https://user-images.githubusercontent.com/96690206/155028117-8c18279e-5d07-48a6-ade7-8f212c06e4bf.jpg)
+
+
+
+
+In this project, we are using 4 LDRs to detect the Sunlight. And when they send Signal to the Arduino, It will guide two Servo Motors to better place the solar panel to maximize its efficiency.
 
 Here is the circuit. I have copied it from " The IOT Project"
 
